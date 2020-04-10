@@ -1,0 +1,8 @@
+org 100h
+
+mov  AX, [etiquette]  ; AX = 0xE3F6
+mov  EDX,etiquette
+mov  BX, [EDX]        ; BX = 0xE3F6
+ret
+
+etiquette: dw 0E3F6h
